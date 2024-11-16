@@ -31,6 +31,14 @@ export default function Home() {
               1 Count Up&Down
             </div>
           </Link>
+          <Link href="/text-change">
+            <div
+              className="border-2 border-gray-500 rounded-lg bg-red-300 hover:bg-red-400
+            px-6 py-4 text-center shadow-lg transition-colors duration-300 cursor-pointer"
+            >
+              2 Text On & Off
+            </div>
+          </Link>
         </div>
       </div>
     </div>
