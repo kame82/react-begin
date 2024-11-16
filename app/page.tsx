@@ -39,6 +39,14 @@ export default function Home() {
               2 Text On & Off
             </div>
           </Link>
+          <Link href="/realtime-text">
+            <div
+              className="border-2 border-gray-500 rounded-lg bg-indigo-400 hover:bg-indigo-500
+            px-6 py-4 text-center shadow-lg transition-colors duration-300 cursor-pointer"
+            >
+              3 Realtime Text
+            </div>
+          </Link>
         </div>
       </div>
     </div>
