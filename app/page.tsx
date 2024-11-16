@@ -47,6 +47,14 @@ export default function Home() {
               3 Realtime Text
             </div>
           </Link>
+          <Link href="/color-change">
+            <div
+              className="border-2 border-gray-500 rounded-lg bg-green-300 hover:bg-green-400
+            px-6 py-4 text-center shadow-lg transition-colors duration-300 cursor-pointer"
+            >
+              4 Change Color
+            </div>
+          </Link>
         </div>
       </div>
     </div>
