@@ -71,6 +71,14 @@ export default function Home() {
               6 Simple Memo
             </div>
           </Link>
+          <Link href="/simple-todo">
+            <div
+              className="border-2 border-gray-500 rounded-lg bg-red-600 hover:bg-red-400
+            px-6 py-4 text-center shadow-lg transition-colors duration-300 cursor-pointer"
+            >
+              7 Simple Todo
+            </div>
+          </Link>
         </div>
       </div>
     </div>
