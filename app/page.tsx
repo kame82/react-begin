@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="relative flex flex-col gap-6 justify-center items-center min-h-screen bg-gray-900">
+    <div className="relative flex flex-col gap-6 justify-center items-center min-h-screen bg-gray-900 text-gray-900">
       <div
         className="absolute inset-0 bg-cover bg-center opacity-75"
         style={{ backgroundImage: "url('/react.png')" }}
@@ -53,6 +53,22 @@ export default function Home() {
             px-6 py-4 text-center shadow-lg transition-colors duration-300 cursor-pointer"
             >
               4 Change Color
+            </div>
+          </Link>
+          <Link href="/comment">
+            <div
+              className="border-2 border-gray-500 rounded-lg bg-yellow-300 hover:bg-yellow-400
+            px-6 py-4 text-center shadow-lg transition-colors duration-300 cursor-pointer"
+            >
+              5 Add Comments
+            </div>
+          </Link>
+          <Link href="/simple-memo">
+            <div
+              className="border-2 border-gray-500 rounded-lg bg-green-600 hover:bg-green-400
+            px-6 py-4 text-center shadow-lg transition-colors duration-300 cursor-pointer"
+            >
+              6 Simple Memo
             </div>
           </Link>
         </div>
