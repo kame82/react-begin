@@ -79,6 +79,14 @@ export default function Home() {
               7 Simple Todo
             </div>
           </Link>
+          <Link href="/simple-diary">
+            <div
+              className="border-2 border-gray-500 rounded-lg bg-sky-600 hover:bg-sky-400
+            px-6 py-4 text-center shadow-lg transition-colors duration-300 cursor-pointer"
+            >
+              8 Simple Diary
+            </div>
+          </Link>
         </div>
       </div>
     </div>
