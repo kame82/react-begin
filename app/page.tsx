@@ -87,6 +87,14 @@ export default function Home() {
               8 Simple Diary
             </div>
           </Link>
+          <Link href="/convert-number">
+            <div
+              className="border-2 border-gray-500 rounded-lg bg-slate-300 hover:bg-slate-400
+            px-6 py-4 text-center shadow-lg transition-colors duration-300 cursor-pointer"
+            >
+              9 Calc Converter
+            </div>
+          </Link>
         </div>
       </div>
     </div>
