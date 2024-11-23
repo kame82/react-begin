@@ -95,6 +95,14 @@ export default function Home() {
               9 Calc Converter
             </div>
           </Link>
+          <Link href="/digital-clock">
+            <div
+              className="border-2 border-gray-500 rounded-lg bg-pink-300 hover:bg-pink-400
+            px-6 py-4 text-center shadow-lg transition-colors duration-300 cursor-pointer"
+            >
+              10 Digital Clock
+            </div>
+          </Link>
         </div>
       </div>
     </div>
