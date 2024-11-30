@@ -111,6 +111,14 @@ export default function Home() {
               11 Random Words
             </div>
           </Link>
+          <Link href="/traffic-lights">
+            <div
+              className="border-2 border-gray-500 rounded-lg bg-purple-400 hover:bg-purple-400
+            px-6 py-4 text-center shadow-lg transition-colors duration-300 cursor-pointer"
+            >
+              12 Traffic Lights
+            </div>
+          </Link>
         </div>
       </div>
     </div>
