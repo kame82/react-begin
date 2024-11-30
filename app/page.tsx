@@ -103,6 +103,14 @@ export default function Home() {
               10 Digital Clock
             </div>
           </Link>
+          <Link href="/random-words">
+            <div
+              className="border-2 border-gray-500 rounded-lg bg-cyan-500 hover:bg-cyan-400
+            px-6 py-4 text-center shadow-lg transition-colors duration-300 cursor-pointer"
+            >
+              11 Random Words
+            </div>
+          </Link>
         </div>
       </div>
     </div>
